@@ -1,0 +1,1 @@
+global.cpvalue = 0;
