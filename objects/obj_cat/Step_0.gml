@@ -1,6 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-if !place_meeting(x,y+1, obj_floor) && !place_meeting(x,y+1,obj_platform){
+if !place_meeting(x,y+1, obj_floor) && !place_meeting(x,y+1,obj_platform) && !place_meeting(x,y+1,obj_chest){
 	vspeed_+= gravity_;
 	image_index = 1;
 }else{
@@ -23,6 +23,14 @@ if place_meeting(x, y+vspeed_, obj_platform){
 		y += sign(vspeed_);	
 	}
 	vspeed_ = 0;
+}
+
+if place_meeting(x, y+vspeed_, obj_chest) && (global.chest == 0){
+	while !place_meeting(x, y+sign(vspeed_), obj_chest) {
+		y += sign(vspeed_);	
+	}
+	vspeed_ = 0;
+	global.chest = 1;
 }
 
 y+=vspeed_;

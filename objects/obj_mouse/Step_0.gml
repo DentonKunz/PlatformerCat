@@ -1,4 +1,3 @@
-
 timer+=1;
 shoot = irandom(20);
 
