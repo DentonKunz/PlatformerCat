@@ -4,3 +4,4 @@ jumpHeight = 15;
 gravity_ = 0.98;
 vspeed_ = 0;
 hspeed_ = 0;
+global.burp = 0;

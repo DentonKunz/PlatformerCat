@@ -5,3 +5,4 @@ if !place_meeting(x-5,y-10, obj_floor){
 		obj_cat.x-=5;
 	}
 }
+global.burp = 1;
