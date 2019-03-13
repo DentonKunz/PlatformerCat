@@ -106,6 +106,14 @@
             "Key": "1e94ee6d-895a-4314-a959-bd6dc702705a",
             "Value": {
                 "id": "c291a363-c396-46fb-9d95-ff70c80edd2d",
+                "resourcePath": "objects\\obj_intVars\\obj_intVars.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "21f67b65-67d0-41de-988e-01d934542cb3",
+            "Value": {
+                "id": "1f9e9582-8624-4abf-b915-927aa9f2654f",
                 "resourcePath": "objects\\obj_system\\obj_system.yy",
                 "resourceType": "GMObject"
             }
