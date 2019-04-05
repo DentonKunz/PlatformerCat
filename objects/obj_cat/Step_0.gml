@@ -48,3 +48,6 @@ if place_meeting(x, y, obj_door) && (global.door>0){
 if place_meeting(x, y, obj_cpdoor) && (global.door>0){
 	room_goto_next();
 }
+if place_meeting(x, y, obj_finishdoor) && (global.finishdoor>0){
+	game_end();
+}

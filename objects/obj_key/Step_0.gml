@@ -2,6 +2,7 @@
 // You can write your code in this editor
 if place_meeting(x, y, obj_cat){
 		global.door = 1;
+		global.finishdoor = 1;
 		instance_destroy(obj_key);
 }
 
